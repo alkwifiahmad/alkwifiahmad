@@ -6,7 +6,7 @@ body {
   color: #fafafa;
 }
 .textAlkwifi {
-  font-size: 9vw;
+  font-size: 8vw;
   font-weight: 400;
   font-family: 'Playfair Display', serif;
   color: #f5e50494;
@@ -377,7 +377,7 @@ body {
   background: #eede00 !important;
 }
 #textAnimate{
-  font-size: 10vw;
+  font-size: 8vw;
   font-weight: 400;
   font-family: 'Playfair Display', serif;
   color: rgba(229, 229, 240, 0.048);

@@ -26,6 +26,26 @@
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./swiper.min.css">
+        <style>
+   
+    .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-color: #575050bd !important;
+      width: 18rem;
+      height: auto;
+     
+      border-bottom: 3px solid yellow;
+      border-radius: 5px;
+    }
+    .swiper-pagination{
+        bottom: -50px;
+    }
+  </style>
         
 
 
@@ -86,10 +106,10 @@
                     Accounting Department,
                     I have a college degree(Diploma).
                     I was a Teacher in economic mathematics, and i passed B2 german Language (Europe level).
-                    I have experience in Photoshop, video editing software, many programming skills in languges: HTML,
-                    JAVASCRIPT, CSS, ..., and Office programs.
+                    I have experience in Photoshop, video editing software, many programming skills in languges: HTML5,
+                    JAVASCRIPT, CSS3, ..., and Office programs.
                     I have interested in designing and developing websites. At the moment I am learning
-                    HTML, CSS, JavaScript, Node.JS in DCI in Düsssldorf.
+                    HTML5, CSS3, JavaScript, Node.JS, React-JS... in DCI in Düsssldorf.
                     My hobbies are <a href="./drawing.html" class="TextSee" data-toggle="tooltip" data-placement="top"
                         title="My drawing"> drawing </a> and swimming.
                 </p>
@@ -210,22 +230,118 @@
         </div>
     </div>
     <br><br>
-        <div class="nav-item dropdown rounded" id="codeDrop">
-            <h1 class="font-weight-bold">Read more Codes</h1>
-            <a class="nav-link dropdown-toggle dropToggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-code "></i> Codes links
-            </a>
-
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="https://codepen.io/ahmad-alkwifi/pen/QZXWMz" target="_blank"># Code1</a>
-                <a class="dropdown-item" href="https://codepen.io/ahmad-alkwifi/pen/yRdLKd" target="_blank"># Code2</a>
-                <a class="dropdown-item" href="https://codepen.io/ahmad-alkwifi/pen/mzZdQx" target="_blank"># Code3</a>
-                <a class="dropdown-item" href="https://codepen.io/ahmad-alkwifi/pen/RezNWB" target="_blank"># Code4</a>
-                <a class="dropdown-item" href="https://add-todo-list-app.herokuapp.com/" target="_blank"># Code5</a>
-                <a class="dropdown-item" href="https://sendemail-nodemailer-app.herokuapp.com/" target="_blank"># Code6</a>
-            </div>
+        <div id="codeDrop">
+            <h1 class="font-weight-bold text-center">Read more Codes</h1>
         </div>
+        <br><br>
+         <!-- Swiper -->
+
+  <div class="swiper-container w-75 m-auto">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+                <div class="p-1" >
+                        <div class="view overlay zoom">
+                            <img class="card-img-top img-fluid" src="./img/code1flage.png" alt="Card image cap" style="height: 18rem">
+                           
+                        </div>
+                        <div>
+                            <h5 class="card-title text-light">Flages with CSS3</h5>
+                            
+                            
+                        </div>
+                        <div>
+                            <a class="TextSee" href="https://codepen.io/ahmad-alkwifi/pen/yRdLKd" style="font-family: 'Satisfy', cursive;"><h5 >See more</h5></a>
+                        </div>
+                    </div>
+
+          </div>
+          <div class="swiper-slide">
+              <div class="p-1" >
+                        <div class="view overlay zoom">
+                           <img class="card-img-top img-fluid" src="./img/code2cklock.png" alt="Card image cap" style="height: 18rem">
+                           
+                        </div>
+                        <div>
+                            <h5 class="card-title text-light">Clock with JavaScript</h5> 
+                        </div>
+                        <div>
+                            <a class="TextSee" href="https://codepen.io/ahmad-alkwifi/pen/QZXWMz" style="font-family: 'Satisfy', cursive;"><h5 >See more</h5></a>
+                        </div>
+                    </div>
+
+          </div>
+          <div class="swiper-slide" >
+              <div class="p-1" >
+                        <div class="view overlay zoom">
+                           <img class="card-img-top img-fluid" src="./img/code3car.png" alt="Card image cap" style="height: 18rem">
+                           
+                        </div>
+                        <div>
+                            <h5 class="card-title text-light">Drive Car with JavaScript</h5>
+                        </div>
+                        <div>
+                            <a class="TextSee" href="https://codepen.io/ahmad-alkwifi/pen/mzZdQx" style="font-family: 'Satisfy', cursive;"><h5 >See more</h5></a>
+                        </div>
+                    </div>
+
+          </div>
+          <div class="swiper-slide" >
+              <div class="p-1" >
+                        <div class="view overlay zoom">
+                          <img class="card-img-top img-fluid" src="./img/code4yahoo.png" alt="Card image cap" style="height: 18rem">
+                           
+                        </div>
+                        <div>
+                            <h5 class="card-title text-light">Yahoo&Google Search</h5>
+                        </div>
+                        <div>
+                            <a class="TextSee" href="https://codepen.io/ahmad-alkwifi/pen/RezNWB" style="font-family: 'Satisfy', cursive;"><h5 >See more</h5></a>
+                        </div>
+                    </div>
+
+          </div>
+          <div class="swiper-slide">
+              <div class="p-1" >
+                        <div class="view overlay zoom">
+                           <img class="card-img-top img-fluid" src="./img/code5addto.png" alt="Card image cap" style="height: 18rem">
+                           
+                        </div>
+                        <div>
+                            <h5 class="card-title text-light">ToDo List with React</h5>
+                        </div>
+                        <div>
+                            <a class="TextSee" href="https://add-todo-list-app.herokuapp.com/" style="font-family: 'Satisfy', cursive;"><h5 >See more</h5></a>
+                        </div>
+                    </div>
+
+          </div>
+          <div class="swiper-slide">
+              <div class="p-1" >
+                        <div class="view overlay zoom">
+                            <img class="card-img-top img-fluid" src="./img/code6gmail.png" alt="Card image cap" style="height: 18rem">
+                          
+                        </div>
+                        <div>
+                            <h5 class="card-title text-light">Nodemailer Node-JS</h5>
+                        </div>
+                        <div>
+                            <a class="TextSee" href="https://sendemail-nodemailer-app.herokuapp.com/" style="font-family: 'Satisfy', cursive;"><h5 >See more</h5></a>
+                        </div>
+                    </div>
+
+          </div>
+          <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/7)"></div>
+          <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/8)"></div>
+          <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/9)"></div>
+          <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/10)"></div>
+         
+        </div>
+        <!-- Add Pagination -->
+        <br>
+        <div class="swiper-pagination text-light"></div>
+      </div>
+    
+      <!-- End Swiper -->
         <br><br>
        
         <div id="mySkills" style="margin: auto; width: 70%;">
@@ -296,6 +412,27 @@
             </div>
         </div>
         
+      <script src="./swiper.min.js"></script>
+    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>   
 
 
     <!-- Optional JavaScript -->
