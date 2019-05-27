@@ -44,4 +44,8 @@ var app = document.getElementById('app');
             .pauseFor(2500)
             .start(2000);
 
-
+$('a[data-toggle="tooltip"]').tooltip({
+  animated: 'fadeIn',
+  placement: 'left',
+  html: true
+});
