@@ -44,8 +44,9 @@ var app = document.getElementById('app');
             .pauseFor(2500)
             .start(2000);
 
-$('a[data-toggle="tooltip"]').tooltip({
-  animated: 'fadeIn',
+$('a[rel=popover]').popover({
+  html: true,
+  trigger: 'hover',
   placement: 'left',
-  html: true
+  content: function(){return '<p>I am </p><img src="'+$(this).data('img') + '" class="avatar" />';}
 });
